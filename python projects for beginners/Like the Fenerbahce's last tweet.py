@@ -1,6 +1,6 @@
 """
 This application will like the lastest tweet of the Official Fenerbahçe Account in Twitter
-using by Selenium an chrome webdriver. Given short sleep times for the page load.
+using by Selenium and chrome webdriver. Given short sleep times for the page load.
 """
 
 from selenium import webdriver
