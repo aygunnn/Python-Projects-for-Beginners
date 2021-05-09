@@ -32,7 +32,7 @@ class Blackjack():
 
     def sıraKımde(self):
         """
-        "Detect the next player" function. Define the next player depends on number of moves. Retruns the function that "Switc_players" function.
+        "Detect the next player" function. Define the next player depends on number of moves. Retruns the function that "Switch_players" function.
         """
 
         if self.hamle % 2 == 0:
