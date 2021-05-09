@@ -53,8 +53,7 @@ class ÜniversiteVeriTabanı():
         with sqlite3.connect("Üniversite Veritabanı.db") as bağlantı:
 
             imleç = bağlantı.cursor()
-            imleç.execute(
-                "CREATE TABLE IF NOT EXISTS Veritabanı_sistemi(İsim TEXT,Soyisim TEXT,Cinsiyet TEXT,Fakülte TEXT)")
+            imleç.execute("CREATE TABLE IF NOT EXISTS Veritabanı_sistemi(İsim TEXT,Soyisim TEXT,Cinsiyet TEXT,Fakülte TEXT)")
             imleç.execute("INSERT INTO Veritabanı_sistemi VALUES('{}','{}','{}','{}')".format(isim, soyisim, cinsiyet, fakülte))
             bağlantı.commit()
 
